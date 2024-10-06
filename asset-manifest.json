@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/splitit/static/css/main.cc832aac.css",
+    "main.css": "/splitit/static/css/main.5fff604b.css",
     "main.js": "/splitit/static/js/main.7d678ad4.js",
     "static/js/453.7b339c0f.chunk.js": "/splitit/static/js/453.7b339c0f.chunk.js",
     "index.html": "/splitit/index.html",
-    "main.cc832aac.css.map": "/splitit/static/css/main.cc832aac.css.map",
+    "main.5fff604b.css.map": "/splitit/static/css/main.5fff604b.css.map",
     "main.7d678ad4.js.map": "/splitit/static/js/main.7d678ad4.js.map",
     "453.7b339c0f.chunk.js.map": "/splitit/static/js/453.7b339c0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc832aac.css",
+    "static/css/main.5fff604b.css",
     "static/js/main.7d678ad4.js"
   ]
 }
