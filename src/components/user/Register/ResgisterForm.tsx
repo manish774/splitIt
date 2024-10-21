@@ -94,14 +94,13 @@ const RegisterForm = () => {
 
     if (!registerDetails.phone && touched.phone) {
       newErrors.phone = messages.phoneRequired;
-    } else if (
-      touched.phone &&
-      registerDetails.phone.length !== 10 &&
-      !isNaN(parseInt(registerDetails.phone))
-    ) {
-      newErrors.phone = messages.phoneInvalid;
+    } else if (touched.phone) {
+      const phone = registerDetails.phone.trim();
+      // Check if it's numeric and exactly 10 digits long
+      if (phone.length !== 10 || isNaN(Number(phone))) {
+        newErrors.phone = messages.phoneInvalid;
+      }
     }
-
     if (!registerDetails.password && touched.password) {
       newErrors.password = messages.passwordRequired;
     } else if (touched.password && validatePassword(registerDetails.password)) {

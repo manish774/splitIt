@@ -15,6 +15,7 @@ html {
   --shadow-theme-focus: var(--shadow-focus-dark);
   --selected-item: var(--selected-item-dark);
   --border-color: var(--border-dark);
+  --bg-color-panel: var(--primary-color);
 
   /* Use the new color palette */
   --primary-color: var(--primary-color);
@@ -38,7 +39,7 @@ html {
   --selected-item: var(--selected-item-light);
   --border-color: var(--border-light);
   --btn-color: var(--primary-color);
-
+  --bg-color-panel: var(--accent-color);
   /* Use the new color palette */
   --primary-color: var(--primary-color);
   --secondary-color: var(--secondary-color);

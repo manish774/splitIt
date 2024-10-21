@@ -41,13 +41,10 @@ Make sure you have the following installed:
 - Node.js
 - MongoDB (Running locally or on a service like MongoDB Atlas)
 
-### Steps to run locally
+### Steps to run locally.
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/expense-tracker.git
    cd expense-tracker
    ```
-
-cd backend
-npm install

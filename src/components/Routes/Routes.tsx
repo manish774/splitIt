@@ -4,6 +4,10 @@ import Register from "../user/Register/Register";
 
 export const myRoutes = [
   {
+    path: "/",
+    element: <Body />,
+  },
+  {
     path: "/login",
     element: <Login />,
   },

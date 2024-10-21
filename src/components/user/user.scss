@@ -86,7 +86,8 @@ body {
   max-width: 400px; /* You can limit the width to keep the form compact */
   padding: 20px;
   border-radius: 10px;
-  background: var(--bg-color); /* Optional background to highlight the form */
+  background: var(--bg-color-panel);
+  /* Optional background to highlight the form */
 }
 
 .signup-login-link-holder {
